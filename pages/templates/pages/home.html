@@ -1,0 +1,266 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Noto+Sans+Mongolian&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tiny5&display=swap"
+          rel="stylesheet">
+    <title>Chatbot</title>
+    <link rel="shortcut icon" href="/static/acespire/images/Acespire-icon.png" />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <header class="header1">
+            <nav class="header1-content">
+                <div class="log">
+                    <img src="static/images/logo.png" alt="">
+                </div>
+                <div class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="#">Home</a></li> &nbsp;
+                        <li><a href="#">About Us</a></li>&nbsp;
+                        <li><a href="#">Our Services</a></li>&nbsp;
+                        <li><a href="#">How it Works?</a></li>&nbsp;
+                        <li><a href="#">Blog</a></li>&nbsp;
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                    <!-- <div class="btns">
+                        <button class="logIn">Log in</button>
+                        <button class="request-demo">Request Demo</button>
+                    </div> -->
+                </div>
+            </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+            <!-- vedio container  -->
+            <div class="video-container">
+                <video src="static/images/home-1.mp4" class="video/mp4" width="100%" loop autoplay muted>
+                    Your browser does not support the video tag.
+                </video>
+
+            </div>
+
+
+          
+<!-- image and content , toggle details container  -->
+            <div class="content2">
+                <div class="left-img"><img src="static/images/tabscreen.png" alt="" with="auto"    class="tab"></div>
+                <div class="para2">
+                    <p>
+                        Well, the way they make shows is, they make one show. That sho's called a pilot. Then they
+                        show that show too.
+                    </p>
+                    <div class="item">
+                        <div class="header">
+                            <button class="toggle-details" data-target="details1"><span class="arrow">&#9660;</span> </button>
+                            <h3 class="title">Who is the pilot in the show?</h3>
+                        </div>
+                        <div class="details" id="details1">
+                            <p>Lorem onsequatur rem omnis architecto, accusantium provident assumenda sapiente beatae? Praesentium, ipsum numquam!</p>
+                        </div>
+                        <div class="header">
+                            <button class="toggle-details" data-target="details2"><span class="arrow">&#9660;</span> </button>
+                            <h3 class="title">How do they do it?</h3>
+                        </div>
+                        <div class="details" id="details2">
+                            <p>When looking at its layout. The point of using Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam facilis at nesciunt ipsam tempore praesentium.</p>
+                        </div>
+                        <div class="header">
+                            <button class="toggle-details" data-target="details3"><span class="arrow">&#9660;</span> </button>
+                            <h3 class="title">When is the show?</h3>
+                        </div>
+                        <div class="details" id="details3">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio quis ipsam vel unde,  perferendis </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  <!-- track and Chainshield heading container  -->
+  <section id="services" class="services">
+    <div class="container">
+  
+      <div class="section-title">
+        <h3>Live Track your Products ! </span></h3>
+      </div>
+  
+      <div class="row">
+        <div class="service">
+          <div class="icon-box">
+            <div class="icon"><i class="fas fa-snowman"></i></div>
+            <h4 class="title"><a href="">Chain Shield heading-1</a></h4>
+            <p class="description">Chain Shield is a real-time live tracking solution that shows you your entire
+              order or product from the manufacturer till it reaches your hands, keeping you
+              updated at every stage.</p>
+          </div>
+        </div>
+  
+        <div class="service">
+          <div class="icon-box">
+            <div class="icon"><i class="fas fa-music"></i></div>
+            <h4 class="title"><a href="">Chain Shield heading-2</a></h4>
+            <p class="description">Chain Shield is a real-time live tracking solution that shows you your entire
+              order or product from the manufacturer till it reaches your hands, keeping you
+              updated at every stage.</p>
+          </div>
+        </div>
+  
+        <div class="service">
+          <div class="icon-box">
+            <div class="icon"><i class="fas fa-video"></i></div>
+            <h4 class="title"><a href="">Chain Shield heading-3</a></h4>
+            <p class="description">Chain Shield is a real-time live tracking solution that shows you your entire
+              order or product from the manufacturer till it reaches your hands, keeping you
+              updated at every stage.</p>
+          </div>
+        </div>
+  
+        <div class="service">
+          <div class="icon-box">
+            <div class="icon"><i class="fas fa-walking"></i></div>
+            <h4 class="title"><a href="">Chain Shield heading-4</a></h4>
+            <p class="description">Chain Shield is a real-time live tracking solution that shows you your entire
+              order or product from the manufacturer till it reaches your hands, keeping you
+              updated at every stage.</p>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+            <!-- bg-image content and request-demo button contianer -->
+            <div class="content3">
+                <div class="box">
+                    <p> Live tracking till it reaches your hands keeping you updated at every stage.</p>
+                </div>
+                <div class="req"><button class="req-demo"><span class="arrow2">&#9660;</span> REQUEST DEMO</button></div>
+            </div>
+
+            <!-- phn images and content container  -->
+            <div class="content4">
+                <h2>How Does It works</h2>
+                <div class="phn-img">
+                    <img src="static/images/3screen-ai.png" alt="" class="phn">
+                </div>
+                <div class="para4">
+                    <p class="p1"> Step 3. Transfers to people from your contact list</p>
+                    <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate suscipit Lorem,  ipsum dolor sit amet consectetur adipisicing elit. Alias ad nesciunt ut, officia iusto quibusdam vero tota</p>
+                </div>
+            </div>
+            
+
+            <!-- content and  2 buttons container -->
+            <div class="content5">
+                <div class="but">
+                    <div class="bg-text">
+                        <h2>Why we Protect your Product ?</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate suscipit Lorem,  ipsum dolor sit amet consectetur adipisicing elit. Alias ad nesciunt ut, officia iusto quibusdam vero tota</p>
+                        <h2>Brand Protection!</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate suscipit Lorem,  ipsum dolor sit amet consectetur adipisicing elit. Alias ad nesciunt ut, officia iusto quibusdam vero tota</p>
+                        
+                    </div>
+                     
+                    <!-- <div class="but1">
+                        <button class="join" style="font-weight: 600;">Request Demo</button>
+                    </div>
+                    <div class="but1">
+                        <button class="contact-us" style="font-weight: 600;">Connect with us</button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="content6">
+                <p style="font-size: xx-large;">Get more details from our Project Demo</p>
+                <div class="but">
+                     <div class="but1">
+                        <button class="join" style="font-weight: 600;">Request Demo</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <div class="chat-button" id="chatButton"> 
+        <img src="{% static 'images/chatbot.png' %}" alt="" class='chat-img'>
+    </div>
+    
+    <section class="chatSection" id="chatSection" style="display:none;">
+        <div class="chatbox">
+            <div class="chatbar">
+                <div class="rightbar">
+                    <img src="{% static 'images/chatbot.png' %}" alt="">
+                </div>
+                <button id="closeButton" class="close-button">X</button>
+            </div>
+            <div class="chat-section" id="chat-section"></div>
+            <div class="input-area">
+                <input type="text" id="userMessage" placeholder="Ask a Question!">
+                <button id="sendButton">Send</button>
+            </div>
+        </div>
+    </section>
+    
+   
+    
+
+    <!-- footer -->
+    <footer>
+        <div class="nav">
+            <div class="left">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                </ul>
+            </div>
+
+            <div class="centre">
+                <img src="static/images/logo.png" alt="" width="250" height="250">
+                <div class="demo-container">
+                    <button class="request-demo">Request Demo</button>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">How it Works?</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="icon">
+            <div class="social-icons">
+                <a href="#"><img src="static/images/linkedin_3536505.png" alt="LinkedIn"></a>
+                <a href="#"><img src="static/images/twitter-alt-square_12107611.png" alt="Icon"></a>
+                <a href="#"><img src="static/images/instagram_2111463.png" alt="Icon"></a>
+                <a href="#"><img src="static/images/Acespire_icon.png" alt="Icon"></a>
+            </div>
+            <p style="color:#194162 ;">Copyright &copy; All Rights Reserved by Acespire Consulting Solutions.</p>
+        </div>
+    </footer>
+    </div>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
+
+
+{% endblock page_content %}
